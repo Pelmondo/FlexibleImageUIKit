@@ -38,7 +38,5 @@ class ViewController: UIViewController, UIScrollViewDelegate {
             imageView.frame.origin.y = contentOffsetheight
             imageView.frame.size.height = 270 + (-contentOffsetheight)
         }
-
-        print(imageView.frame.size.height)
     }
 }
